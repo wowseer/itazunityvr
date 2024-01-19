@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "ITAZUNITY.sln"
+    "dotnet.defaultSolution": "itazunityvr.sln"
 }
