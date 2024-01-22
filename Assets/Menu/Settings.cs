@@ -15,7 +15,15 @@ public class SettingsButton : MonoBehaviour
 
     void TaskOnClick()
     {
-        Debug.Log("Einstellungsfenster wird geöffnet");
-        settingsPanel.SetActive(true); 
+        if (settingsPanel.active)
+        {
+            Debug.Log("Einstellungsfenster wird geschlossen");
+            settingsPanel.SetActive(false);
+        }
+        else
+        {
+            Debug.Log("Einstellungsfenster wird geöffnet");
+            settingsPanel.SetActive(true);
+        }
     }
 }
