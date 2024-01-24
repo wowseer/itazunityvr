@@ -6,6 +6,7 @@ public class LogicScript : MonoBehaviour
 {
 
     public Text myText;
+
     public int score = 0;
 
     [ContextMenu("Increment Score")]
@@ -26,7 +27,7 @@ public class LogicScript : MonoBehaviour
     }
     public void updateScoreInUi() 
     {
-        myText.text = score.ToString();
+        myText.text = "Score: " + score.ToString();
     }
 
     // Start is called before the first frame update
