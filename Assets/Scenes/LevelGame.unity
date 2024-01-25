@@ -8826,6 +8826,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete XR Origin Set Up
       objectReference: {fileID: 0}
+    - target: {fileID: 2558811755296145831, guid: 55313c323dc88cd4d8549caa85889da3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459131055663429972, guid: 55313c323dc88cd4d8549caa85889da3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5600963784010974225, guid: 55313c323dc88cd4d8549caa85889da3, type: 3}
       propertyPath: m_IsActive
       value: 1
