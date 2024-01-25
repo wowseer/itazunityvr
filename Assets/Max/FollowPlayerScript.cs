@@ -19,7 +19,7 @@ public class FollowPlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {  
-        Debug.Log(playerReference.transform.position);
+        //Debug.Log(playerReference.transform.position);
         if ((playerReference.transform.position - transform.position).magnitude > distanceToKeep)
         {move(playerReference.transform.position);}
     }
