@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class BeendenButton : MonoBehaviour
 {
@@ -16,8 +17,6 @@ public class BeendenButton : MonoBehaviour
     {
         Debug.Log("Spiel wird beendet!");
         Application.Quit();
-        
-        //Für Editor
-        UnityEditor.EditorApplication.isPlaying = false;
+
     }
 }
